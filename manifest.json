@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "name": "长春工业大学教务系统修复工具",
+  "version": "0.0.2",
+  "description": "本插件用来解决\"长春工业大学综合教务管理系统\"在Chrome浏览器中出现\"无法创建对象\"问题。注:目前教务系统中选课和退选操作正常，其它功能并未测试，可能存在未解决的遗漏bug。",
+  "homepage_url": "https://github.com/kaleidoscopess",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "permissions": [
+    "*://*.ccut.edu.cn/*",
+    "*://*.ccut.cn/*",
+    "*://111.116.20.13/*",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "img/icon128.png",
+    "default_title": "长春工业大学教务系统修复工具",
+    "default_popup": "html/popup.html"
+  },
+  "web_accessible_resources": [
+    "js/core_fixA1.js",
+    "js/chose_fixA1.js"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "http://ea.ccut.edu.cn/xkglAction.do",
+        "http://*.ccut.edu.cn/*",
+        "http://111.116.20.13/xkglAction.do"
+      ],
+      "js": [
+        "js/choose_script.js"
+      ],
+      "css": []
+    }
+  ]
+}
