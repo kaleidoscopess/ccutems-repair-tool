@@ -1,9 +1,9 @@
 function openGithub() {
-    chrome.tabs.create({ url: 'https://github.com/kaleidoscopess' });
+    chrome.tabs.create({ url: 'https://github.com/kaleidoscopess/ccutems-repair-tool' });
 }
 
 function openBili(){
-    chrome.tabs.create({ url: 'https://space.bilibili.com/27632350' });
+    chrome.tabs.create({ url: 'https://www.bilibili.com/video/BV1YT4y1P7PS/' });
 }
 
 function init() {
