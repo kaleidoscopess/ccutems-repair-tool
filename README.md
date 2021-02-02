@@ -40,4 +40,6 @@ Edge(Chromium内核):
 
 ## 视频说明-安装与工作原理
 
-正在录制，完成后会上传至b站。
+视频说明在[这里](https://www.bilibili.com/video/BV1YT4y1P7PS/)
+如果无法跳转到b站也可以复制下面的链接到浏览器地址栏中访问
+`https://www.bilibili.com/video/BV1YT4y1P7PS/`
