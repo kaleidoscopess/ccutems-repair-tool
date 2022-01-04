@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "长春工业大学教务系统修复工具",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "本插件用来解决\"长春工业大学综合教务管理系统\"在Chrome浏览器中出现\"无法创建对象\"问题。注:目前教务系统中选课和退选操作正常，其它功能并未测试，可能存在未解决的遗漏bug。",
   "homepage_url": "https://github.com/kaleidoscopess",
   "icons": {
