@@ -37,7 +37,8 @@
       "matches": [
         "http://ea.ccut.edu.cn/xkglAction.do",
         "http://*.ccut.edu.cn/*",
-        "http://111.116.20.13/xkglAction.do"
+        "http://111.116.20.13/xkglAction.do",
+        "https://111-116-20-13.webvpn.ccut.cn/*"
       ],
       "js": [
         "js/choose_script.js"
